@@ -78,6 +78,7 @@ body {
   }
   
   .container {
+    border-radius: 25px;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 30%;
@@ -89,6 +90,7 @@ body {
   }
   
   .tareasList {
+    border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -96,18 +98,21 @@ body {
   
   form {
     display: flex;
+    border-radius: 25px;
   }
   
   input {
+    border-radius: 25px;
     padding: 15px 10px;
     width: 300px;
-    outline: none;
+    outline:auto
   }
   
   .btn-add {
+    border-radius: 25px;
     padding: 5px 15px;
     color: white;
-    border: none;
+    outline:auto
     font-family: fantasy;
     background-color: teal;
     font-size: 1.4rem;
